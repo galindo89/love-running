@@ -137,5 +137,48 @@ footer {
 
 }
 
+/* Media query for tablet size min width 768px*/
+
+@media screen and (min-width:768px) {
+
+    /*Header */
+
+    nav {
+
+        display: block;
+        position:relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem ;
+    }
+
+    #menu {
+
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between ;
+        
+    
+    }
+
+    #menu li {
+
+        padding-left:1rem
+
+
+    }
+
+    .nav-toggle-label {
+
+      display: none;
+
+    }
+
+
+
+
+    
+}
+
 
 
