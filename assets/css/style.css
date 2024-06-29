@@ -137,18 +137,20 @@ main {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
- 
-  
+  border-top: 1px #3a3a3a;
+
+
+
 
 }
 
-#social-networks i{
+#social-networks i {
 
   font-size: 160%;
   padding: 5%;
   color: #3a3a3a;
 
-  
+
 
 
 }
