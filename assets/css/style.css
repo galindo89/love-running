@@ -128,12 +128,33 @@ main {
 
 }
 
-footer {
+/*footer */
 
-  background-color: orange;
+#social-networks {
+
+  text-align: center;
+  padding: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+ 
+  
+
+}
+
+#social-networks i{
+
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
+
+  
 
 
 }
+
+
+
 
 /* Media query for tablet size min width 768px*/
 
@@ -153,7 +174,7 @@ footer {
   #menu {
 
     display: flex;
-   
+
 
   }
 
@@ -179,9 +200,9 @@ footer {
 
   main {
 
-    
+
     margin-top: 79px;
-  
+
   }
 
 
@@ -192,12 +213,13 @@ footer {
 
 @media screen and (min-width:992px) {
 
-  #menu a:hover{
+  #menu a:hover {
 
     border-bottom: 1px solid #3a3a3a;
 
 
-    
+
+
 
 
   }
