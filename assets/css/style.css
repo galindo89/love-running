@@ -1,7 +1,6 @@
 /*Importing fonts from Google */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap');
 /* Asterisk selector */
 
 * {
@@ -21,6 +20,7 @@ body {
     flex-direction: column;
     /*Generic color styles for text elements */
     color: #3a3a3a;
+    font-family: "Lato", sans-serif;
 
 }
 
@@ -44,11 +44,18 @@ footer {
 
 }
 
-/*Importing google Fots */
+/*Google Fonts Classes */
 
 .oswald-font {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300px;
+  font-weight: 300;
   font-style: normal;
 }
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
