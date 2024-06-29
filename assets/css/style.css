@@ -86,3 +86,29 @@ footer {
     font-style: normal;
   }
   
+ #menu {
+
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px; 
+
+
+
+
+
+  }
+
+  #menu li {
+
+    margin-bottom: 1em;
+
+
+  }
+
+  .active{
+
+    border-bottom: 1px solid #3a3a3a;
+
+
+
+  }
