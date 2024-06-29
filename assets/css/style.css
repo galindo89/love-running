@@ -56,45 +56,11 @@ h1 {
 
 }
 
-main {
-
-    background-color: lightblue;
-    /*  Make main element to take up any surplus space to push footer down*/
-    flex: 1 0 auto;
-
-}
-
-footer {
-
-    background-color: orange;
-
-
-}
-
-/*Google Fonts Classes */
-
-.oswald-font {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
  #menu {
 
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px; 
-
-
-
-
 
   }
 
@@ -112,3 +78,34 @@ footer {
 
 
   }
+
+  nav {
+    position: absolute;
+    background-color: #ffff;
+    width:100%;
+    padding:0 1rem;
+    left:0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display:none;
+    
+
+  }
+
+  
+main {
+
+    background-color: lightblue;
+    /*  Make main element to take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+
+}
+
+footer {
+
+    background-color: orange;
+
+
+}
+
+
+
