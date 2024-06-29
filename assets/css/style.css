@@ -8,6 +8,18 @@
 
 }
 
+/*General styles */
+
+body {
+
+    min-height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    /*Generic color styles for text elements */
+    color: #3a3a3a;
+
+}
+
 header {
 
     background-color: lightcoral;
@@ -16,6 +28,9 @@ header {
 main {
 
     background-color: lightblue;
+    /*  Make main element to take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+
 }
 
 footer {
