@@ -130,6 +130,15 @@ main {
 
 /*footer */
 
+footer {
+
+
+  border-top: 2px solid #3a3a3a;
+ 
+
+
+}
+
 #social-networks {
 
   text-align: center;
@@ -204,6 +213,7 @@ main {
 
 
     margin-top: 79px;
+    display: block;
 
   }
 
