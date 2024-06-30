@@ -310,6 +310,21 @@ main {
 
 }
 
+/* Styles for the gallery for different screen sizes */
+
+@media screen and (min-width:576px) {
+
+  #photos {
+
+    column-count: 2;
+    column-gap: 0;
+
+  }
+
+
+
+}
+
 
 
 
@@ -401,6 +416,14 @@ main {
 
   }
 
+  #photos {
+
+    column-count: 3;
+    column-gap: 0;
+
+  }
+
+
 
 }
 
@@ -413,6 +436,14 @@ main {
     border-bottom: 1px solid #3a3a3a;
 
   }
+
+  #photos {
+
+    column-count: 4;
+    column-gap: 0;
+
+  }
+
 
 
 
@@ -460,6 +491,9 @@ main {
 
 
   }
+
+
+
 
 
 
