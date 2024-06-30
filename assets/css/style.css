@@ -367,52 +367,54 @@ main {
 
   }
 
-   #benefits {
+   
+   
+}
+
+@media screen and (min-width:1200px) {
+
+  #benefits  {
 
     display: flex;    
-    justify-content: space-around;
-    align-items: normal;
-    gap: 2px;
-
+    flex-direction: row;
 
   }
-  #benefits-image {
+  #benefits >div{
   
-    order: 2;
+    flex:1;
    
- 
- 
- 
+  }
+
+ #benefits-image {
+
+  order:0
+
+
  }
 
- #benefits-physical {
-
+    
+ #benefits-mental {
+  
   order:1;
-  align-content: center;
+
+  
+}
+
+
+ #benefits-mental > div {
+
+  align-self:flex-start;
+ }
+
+ #benefits-physical > div {
+
+  align-self: flex-end;
+
+
  }
  
 
-  
    
+ 
   
-  
-  #benefits-mental {
-  
-    order:3;
-
-    text-align: left;
-  
-  
-  }
-   
-
-
-
-
-
-
-
-
-
-
 }
