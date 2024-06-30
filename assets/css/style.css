@@ -141,6 +141,10 @@ main {
   /*  Make main element to take up any surplus space to push footer down*/
   flex: 1 0 auto;
   margin-top: 47px;
+/* Enable flex properties for child elements */
+
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -231,7 +235,7 @@ main {
 
 }
 
-/* Mee-ups section */
+/* Meet-ups section */
 
 #times {
 
@@ -283,6 +287,75 @@ main {
 
 
 }
+
+/* Sign up page styles */
+
+#signup {
+  background-image: url("../images/signup-image.webp");
+  background-size: cover;
+  background-position: 75%;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1; /* only works because we have set the main to flex and the orientation to colum */
+ 
+}
+
+#signup-form {
+
+  color:#ffffff;
+  background-color: rgba(60,60,60,0.6);
+  padding: 30px;
+ 
+ 
+ 
+  
+  
+}
+
+#signup h2 {
+
+  color: #fafafa;
+  margin-bottom: 20px;
+  
+}
+
+.text-input {
+  background: transparent;
+  color: white;
+  width: 100%;
+  height: 25px;
+  margin:5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  padding: 0 5px;
+   
+
+
+}
+
+
+.radio-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;  
+
+
+}
+
+.join-button {
+ 
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 15px 32px ;
+  border-radius: 2px;
+  background-color: #454b1b;
+  color: #fafafa;
+  font-size: 100%;
+
+
+}
+
+
+
 
 
 /* Footer section with social networks */
