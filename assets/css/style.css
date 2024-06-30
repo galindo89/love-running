@@ -31,6 +31,12 @@ h1,h2,h3 {
   color: #252525
 }
 
+hr {
+  border-top: 1px solid #3a3a3a;
+  margin: 5px 0;
+}
+
+
 header {
 
   background-color: white;
@@ -162,16 +168,44 @@ main {
 
 }
 
-/*footer */
+#reasons {
 
-/* footer {
-
-
-  border-top: 2px solid #3a3a3a;
- 
+  width: 90%;
+  margin: 20px auto
+  
 
 
-} */
+
+
+}
+
+#reasons h2 {
+
+  margin-bottom: 20px;
+  font-size: 280%;
+  text-align: center;
+
+
+
+
+}
+
+
+
+#benefits-physical > div, #benefits-mental > div  {
+
+  line-height: 20px;
+  margin-bottom: 20px;
+  
+
+
+}
+
+#benefits p {
+  padding: 0 20px;
+}
+
+
 
 
 
